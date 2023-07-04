@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: crud-app-pv
+spec:
+  accessModes:
+  - ReadWriteOnce
+  capacity:
+    storage: 3G
+  hostPath:
+    path: /data/pv
