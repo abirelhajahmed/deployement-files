@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: front
-        image: abirelhajahmed/frontend:4
+        image: abirelhajahmed/frontend:3
         ports:
         - containerPort: 3000
         resources:  
