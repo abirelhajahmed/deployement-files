@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: front
-        image: abirelhajahmed/frontend:30
+        image: abirelhajahmed/frontend:31
         ports:
         - containerPort: 3000
